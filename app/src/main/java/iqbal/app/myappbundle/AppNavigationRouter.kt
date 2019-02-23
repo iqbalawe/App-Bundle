@@ -25,7 +25,7 @@ fun openLoginActivity(context: Context, text: String) {
 
 fun openProfileActivity(context: Context) {
     val uri = Uri
-        .parse("appbundle://page/iqbal")
+        .parse("appbundle://page/Amantap!")
 
     val intent = Intent(Intent.ACTION_VIEW, uri)
     context.startActivity(intent)
